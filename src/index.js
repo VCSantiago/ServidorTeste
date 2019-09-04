@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
-mongoose.connect('mongodb+srv://santiago:santiago@cluster0-vwd1f.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://santiago:santiago@cluster0-swqjv.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
 });
 app.use((req, res, next) =>{
